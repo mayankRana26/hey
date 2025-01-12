@@ -1,6 +1,8 @@
 import './App.css'
-import Memo from './components/memo/Memo';
-import Simple from './components/memo/Simple';
+import A from './components/contextPractice/A';
+// import C from './components/contextPractice/C';
+// import Memo from './components/memo/Memo';
+// import Simple from './components/memo/Simple';
 
 // import { useState } from "react";
 
@@ -39,7 +41,9 @@ export default function App() {
       <ThemeToggler/>
       </Theme> */}
       {/* <Simple/> */}
-      <Memo/>
+      {/* <Memo/> */}
+      <A/>
+      {/* <C/> */}
     </>
   );
 }
